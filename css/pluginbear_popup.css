@@ -1,0 +1,36 @@
+#pluginbear-popup-container { display:none;position:fixed;top:0px;left:0px;min-width:100%;min-height:100%;z-index:1000000; }  
+#pluginbear-popup-panel { display:none;position:fixed;top:10%;left:50%;padding:10px 15px 10px 15px;z-index:1000001;overflow:hidden; }
+	#pluginbear-popup-content { width:100%;height:95%;overflow-y:scroll; }
+	#pluginbear-popup-close { margin:9px 0px 0px 0px;padding:0px;text-align:right;font-size:11px; }
+		#pluginbear-popup-close a { text-decoration:none; }
+			#pluginbear-popup-close a:hover { text-decoration:underline; }
+	
+#pluginbear_container { width:1039px; }
+#popup_message { margin:0px; }
+#popup_demo { width:500px;height:300px;padding:7px 20px;overflow:hidden;position:relative; }
+	#pluginbear-preview-popup-container { position:absolute;top:0px;left:0px;width:540px;height:314px;z-index:1000000; }  
+		#pluginbear-preview-popup-panel { position:absolute;top:40px;left:40px;width:430px;height:214px;padding:10px 15px 10px 15px;z-index:1000001;overflow:hidden; }
+			#pluginbear-preview-popup-content { width:100%;height:95%;overflow-y:scroll; }
+			#pluginbear-preview-popup-close { margin:3px 0px 0px 0px;padding:0px;text-align:right;font-size:11px; }
+				#pluginbear-preview-popup-close a { text-decoration:none; }
+					#pluginbear-preview-popup-close a:hover { text-decoration:underline; }
+#background_slider,#radius_slider { width:200px;margin:5px 0px; }
+#popup_update { }
+	#popup_update dl { }
+		#popup_update dt { width:130px;float:left;clear:left; }
+			#popup_update dt label { }
+		#popup_update dd { float:left;width:462px; }
+			#popup_update dd input.text,#popup_update dd select { width:200px; }
+			#popup_update dd #like_text { width:328px; }
+			#popup_update dd #opacity { width:40px;text-align:center; }
+			#popup_update dd #popup_slider { float:left;margin:7px 10px 0px 0px; }
+	#popup_update .cont_hidden { display:none; }
+#shortcode_snippet { font-family:"Courier New", Courier, monospace; }
+#content_container { float:left;width:632px; }
+#donations_container { float:right;width:300px;text-align:center;margin:20px 0px 0px 75px;background:#f8f8f8;border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:0px 15px 15px; }
+	#donations_container p { text-align:left; }
+
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
